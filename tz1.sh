@@ -2,6 +2,7 @@
 read input_dir
 read output_dir
 COUNTER=0
+USELESS=$(find "$input_dir" -type f -maxdepth 1)
 FILES=$(find "$input_dir" -type f)
 DIRECTORIES=$(find "$input_dir" -type d)
 for file in $FILES
