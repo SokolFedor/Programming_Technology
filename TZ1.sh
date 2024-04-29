@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 read input_dir
 read output_dir
 COUNTER=0
